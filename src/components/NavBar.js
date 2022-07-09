@@ -1,3 +1,5 @@
+import CartWidget from "./CartWidget";
+
 const NavBar = () => {
   return (
     <header>
@@ -5,7 +7,11 @@ const NavBar = () => {
         <div class="container-fluid">
           <div>
             <a class="navbar-brand" href="#">
-              <img src="./logo-gamestore.png" alt="logo videogame store" class="nav--logo"></img>
+              <img
+                src="./logo-gamestore.png"
+                alt="logo videogame store"
+                class="nav--logo"
+              ></img>
             </a>
           </div>
           <div class="collapse navbar-collapse">
@@ -28,6 +34,7 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
+        <CartWidget />
       </nav>
     </header>
   );
