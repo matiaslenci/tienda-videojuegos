@@ -15,10 +15,10 @@ const ItemCount = (props) => {
     }
   }
   return (
-    <div className="ItemCount">
-      <button onClick={handleDisminuir} className="ItemCount--disminuir">-</button>
+    <div class="ItemCount">
+      <button onClick={handleDisminuir} class="ItemCount--disminuir">-</button>
       <p>{Aumentar}</p>
-      <button onClick={handleAumentar} className="ItemCount--Aumentar">+</button>
+      <button onClick={handleAumentar} class="ItemCount--Aumentar">+</button>
     </div>
   );
 };
