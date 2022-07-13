@@ -50,3 +50,16 @@ font-size: 30px;
   height: 377px;
   margin-right: 1rem;
 }
+
+/* ItemCount */
+.item-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 5rem;
+  background: #e9e9eb;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 11px 3px rgba(0, 0, 0, 0.338);
+}
